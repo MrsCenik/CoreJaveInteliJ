@@ -11,7 +11,8 @@ public class ArraySwap {
 		
 //		System.out.println("temp brore swap "+Arrays.toString(temp));
 		System.out.println("a before swap "+Arrays.toString(a));
-		System.out.println("b before swap "+Arrays.toString(b));	
+		System.out.println("b before swap "+Arrays.toString(b));
+
 		for(int i = 0; i<a.length; i++) {
 			temp[i]=a[i];	
 			a[i]=b[i];
